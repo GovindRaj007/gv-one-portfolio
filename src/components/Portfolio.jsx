@@ -1,20 +1,20 @@
 import React from "react";
 import keepsafe from "../assets/portfolio/keepsafe.png";
-import wayfinder from "../assets/portfolio/wayfinder.png";
+import FitnessHub from "../assets/portfolio/FitnessHub.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: keepsafe,
-      demoLink: "https://suryavenkat1824.github.io/Keep-Safe/",
-      codeLink: "https://github.com/suryavenkat1824/Keep-Safe",
+      demoLink: "https://keep-safe.vercel.app/",
+      codeLink: "https://github.com/GovindRaj007/Keep-Safe",
     },
     {
       id: 2,
-      src: wayfinder,
-      demoLink: "https://way-finder-1824.netlify.app/",
-      codeLink: "https://github.com/suryavenkat1824/WayFinder",
+      src: FitnessHub,
+      demoLink: "https://gvfitnesshub.netlify.app/",
+      codeLink: "https://github.com/GovindRaj007/fitness_hub",
     },
   ];
   return (
